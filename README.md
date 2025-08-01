@@ -19,9 +19,9 @@ This evaluation adapts and tests HUMUS-Net on the fastMRI brain dataset, using u
 
 ---
 
----
+## Evaluation results
 
-Evaluation on fastMRI brain dataset (8x acceleration, 4% center k-space) results:
+Evaluation on fastMRI Brain dataset (8x acceleration, 4% center k-space) results:
 
 | Method                                                                                      | SSIM       | NMSE       | PSNR     |
 | ------------------------------------------------------------------------------------------- | ---------- | ---------- | -------- |
