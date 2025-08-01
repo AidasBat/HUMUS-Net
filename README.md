@@ -44,7 +44,7 @@ Slice 08 reconstruction and error map:
 
 ## Acknowledgments and references
 - [HUMUS-Net repository]( https://github.com/z-fabian/HUMUS-Net)
-- **HUMUS-Net: Hybrid Unrolled Multi-scale Network Architecture for Accelerated MRI Reconstruction**: Fabian, Z., Tinaz, B. and Soltanolkotabi, M. (2022) ‘HUMUS-Net: Hybrid unrolled multi-scale network architecture for accelerated MRI reconstruction’. arXiv. Available at: https://doi.org/10.48550/ARXIV.2203.08213.
+- **HUMUS-Net: Hybrid Unrolled Multi-scale Network Architecture for Accelerated MRI Reconstruction**: *Fabian, Z., Tinaz, B. and Soltanolkotabi, M. (2022) ‘HUMUS-Net: Hybrid unrolled multi-scale network architecture for accelerated MRI reconstruction’. arXiv. Available at: https://doi.org/10.48550/ARXIV.2203.08213.*
 - [fastMRI repository]( https://github.com/facebookresearch/fastMRI)
 - **fastMRI**: Zbontar et al., *fastMRI: An Open Dataset and Benchmarks for Accelerated MRI, https://arxiv.org/abs/1811.08839*
 
