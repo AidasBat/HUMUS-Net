@@ -15,7 +15,21 @@ This evaluation adapts and tests HUMUS-Net on the fastMRI brain dataset, using u
 
 - `evaluation/eval.py`: Updated evaluation script customized for fastMRI brain data.  
 - `evaluation/poster.pdf`: Research poster summarizing key findings.  
-- `evaluation/figures`: Visualizations of reconstruction results and metric trends.
+- `evaluation/figures`: A few visualization of a reconstruction examples.
+
+---
+
+---
+
+Evaluation on fastMRI brain dataset (8x acceleration, 4% center k-space) results:
+
+| Method                                                                                      | SSIM       | NMSE       | PSNR     |
+| ------------------------------------------------------------------------------------------- | ---------- | ---------- | -------- |
+| **HUMUS-Net**                                                                               | **0.8871** | **0.0265** | **31.9** |
+
+Slice 08 reconstruction and error map:
+
+<img width="2205" height="719" alt="file_brain_AXFLAIR_200_6002471 h5_slice_002_comparison" src="https://github.com/user-attachments/assets/8352a6f7-3656-4844-b2f0-ee9648587a2d" />
 
 ---
 
