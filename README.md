@@ -26,7 +26,7 @@ Evaluation on fastMRI Brain dataset (8x acceleration, 4% center k-space) results
 | ------------------------------------------------------------------------------------------- | ---------- | ---------- | -------- |
 | **HUMUS-Net**                                                                               | **0.8871** | **0.0265** | **31.9** |
 
-- Cross-domain evaluation on fastMRI datasets shows HUMUS-Net achieves reasonable generalization from knee to brain
+- Cross-domain evaluation on fastMRI datasets shows HUMUS-Net achieves reasonable generalization from knee to brain.
 
 Slice 08 reconstruction and error map:
 
