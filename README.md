@@ -6,7 +6,7 @@ This repository contains an **independent evaluation** of the HUMUS-Net model ap
 
 ## Summary
 
-HUMUS-Net is a state-of-the-art hybrid unrolled multi-scale network architecture originally designed for accelerated MRI reconstruction on knee data.  
+HUMUS-Net is a state-of-the-art hybrid unrolled multi-scale network architecture originally designed for accelerated MRI reconstruction of knee data.  
 This evaluation adapts and tests HUMUS-Net on the fastMRI brain dataset, using updated evaluation script.
 
 ---
@@ -14,7 +14,6 @@ This evaluation adapts and tests HUMUS-Net on the fastMRI brain dataset, using u
 ## Evaluation Contents
 
 - `evaluation/eval.py`: Updated evaluation script customized for fastMRI brain data.  
-- `evaluation/poster.pdf`: Research and cross-domain analysis poster summarizing evaluation results.  
 - `evaluation/figures`: A few visualization of a reconstruction examples.
 
 ---
@@ -26,6 +25,8 @@ Evaluation on fastMRI Brain dataset (8x acceleration, 4% center k-space) results
 | Method                                                                                      | SSIM       | NMSE       | PSNR     |
 | ------------------------------------------------------------------------------------------- | ---------- | ---------- | -------- |
 | **HUMUS-Net**                                                                               | **0.8871** | **0.0265** | **31.9** |
+
+- Cross-domain evaluation on fastMRI datasets shows HUMUS-Net achieves reasonable generalization from knee to brain
 
 Slice 08 reconstruction and error map:
 
