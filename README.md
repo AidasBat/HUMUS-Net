@@ -1,20 +1,20 @@
 # HUMUS-Net Evaluation on fastMRI Brain Dataset
 
-This repository contains an independent evaluation of the HUMUS-Net model applied to the **fastMRI Brain dataset**.
+This repository contains an **independent evaluation** of the HUMUS-Net model applied to the **fastMRI Brain dataset**.
 
 ---
 
 ## Summary
 
 HUMUS-Net is a state-of-the-art hybrid unrolled multi-scale network architecture originally designed for accelerated MRI reconstruction on knee data.  
-This evaluation adapts and tests HUMUS-Net on the fastMRI brain dataset, using updated metrics and an improved evaluation script.
+This evaluation adapts and tests HUMUS-Net on the fastMRI brain dataset, using updated evaluation script.
 
 ---
 
 ## Evaluation Contents
 
 - `evaluation/eval.py`: Updated evaluation script customized for fastMRI brain data.  
-- `evaluation/poster.pdf`: Research poster summarizing key findings.  
+- `evaluation/poster.pdf`: Research and cross-domain analysis poster summarizing evaluation results.  
 - `evaluation/figures`: A few visualization of a reconstruction examples.
 
 ---
@@ -38,5 +38,13 @@ Slice 08 reconstruction and error map:
 1. Clone this forked repository.
 2. Follow the original HUMUS-Net installation and setup instructions [here](https://github.com/z-fabian/HUMUS-Net#installation).
 3. Download and prepare the fastMRI brain dataset from [fastMRI](https://fastmri.med.nyu.edu/).
-4. Run the evaluation using the updated `eval.py` script:
+4. Run the evaluation using the updated `evaluation/eval.py` script:
+
+---
+
+## Acknowledgments and references
+- [HUMUS-Net repository]( https://github.com/z-fabian/HUMUS-Net)
+- **HUMUS-Net: Hybrid Unrolled Multi-scale Network Architecture for Accelerated MRI Reconstruction**: Fabian, Z., Tinaz, B. and Soltanolkotabi, M. (2022) ‘HUMUS-Net: Hybrid unrolled multi-scale network architecture for accelerated MRI reconstruction’. arXiv. Available at: https://doi.org/10.48550/ARXIV.2203.08213.*
+- [fastMRI repository]( https://github.com/facebookresearch/fastMRI)
+- **fastMRI**: Zbontar et al., *fastMRI: An Open Dataset and Benchmarks for Accelerated MRI, https://arxiv.org/abs/1811.08839*
 
