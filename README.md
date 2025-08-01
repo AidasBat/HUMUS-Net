@@ -14,8 +14,7 @@ This evaluation adapts and tests HUMUS-Net on the fastMRI brain dataset, using u
 ## Evaluation Contents
 
 - `evaluation/eval.py`: Updated evaluation script customized for fastMRI brain data.  
-- `results.csv`: Performance metrics obtained from our evaluation.  
-- `poster.pdf`: Research poster summarizing key findings.  
+- `evaluation/poster.pdf`: Research poster summarizing key findings.  
 - `evaluation/figures`: Visualizations of reconstruction results and metric trends.
 
 ---
